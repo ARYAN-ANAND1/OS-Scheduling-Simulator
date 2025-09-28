@@ -1,8 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <queue>
-#include <climits>
+#include <bits/stdc++.h>
 using namespace std;
 
 struct Process {
@@ -123,7 +119,7 @@ void Priority_NP(vector<Process> p) {
     printResults(p);
 }
 
-// Priority Scheduling (Preemptive)
+//Priority Scheduling (Preemptive)
 void Priority_P(vector<Process> p) {
     cout << "\n--- Priority Scheduling (Preemptive) ---\n";
     int n = p.size();
