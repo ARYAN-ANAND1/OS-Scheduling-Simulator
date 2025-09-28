@@ -13,5 +13,5 @@ This project contains implementations of popular **CPU Scheduling Algorithms**:
 ## Usage
 Compile and run:
 ```bash
-g++ scheduling.cpp -o scheduling
-./scheduling
+g++ CPU.cpp -o CPU
+./CPU
